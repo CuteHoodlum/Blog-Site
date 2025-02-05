@@ -1,0 +1,144 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Main Content */
+main {
+    margin-top: 40px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #4CAF50; /* Accent color */
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Aside */
+aside {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    margin-top: 30px;
+}
+
+aside h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+aside p {
+    font-size: 16px;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-content-left, .footer-content-right {
+    width: 45%;
+}
+
+.footer-content-left ul, .footer-content-right ul {
+    list-style-type: none;
+}
+
+.footer-content-left li, .footer-content-right li {
+    margin-bottom: 10px;
+}
+
+.footer-content-left a, .footer-content-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content-left a:hover, .footer-content-right a:hover {
+    color: #4CAF50;
+}
+
+.footer-content-right .icon {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-content-right .icon a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-content-right .icon a:hover {
+    color: #4CAF50;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #388E3C;
+}
